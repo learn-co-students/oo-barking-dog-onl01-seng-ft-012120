@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog 
   
   def name=(dogs_name)
@@ -19,3 +21,5 @@ fido = Dog.new
 fido.name = "fido"
 
 puts fido.name
+
+binding.pry
